@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4nhVVQ07U8ZpXeg06mM0Jint6wdnC/ZYVi703nalZb0kCdfURCdijk3ufoPeyPEs7aF7ctHYAVU4be4FUE2XJQ==",
+  "dgSpecHash": "Qjs71IZZzUA0J9+dCXLSSNFYtjp+/d97gZYx2QNFv5c/Pjt6xdD04imPYESOWrjwVWT9Sr/ZButqXBHWhXbe4A==",
   "success": true,
-  "projectFilePath": "C:\\ClearArchitecture\\ClearArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Data.csproj",
+  "projectFilePath": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\57318\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\57318\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

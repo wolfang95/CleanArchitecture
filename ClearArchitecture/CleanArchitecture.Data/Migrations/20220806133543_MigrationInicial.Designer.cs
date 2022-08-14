@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace CleanArchitecture.Data.Migrations
 {
-    [DbContext(typeof(StreamerDBContext))]
+    [DbContext(typeof(StreamerDbContext))]
     [Migration("20220806133543_MigrationInicial")]
     partial class MigrationInicial
     {

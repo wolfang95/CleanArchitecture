@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace CleanArchitecture.Data.Migrations
 {
-    [DbContext(typeof(StreamerDBContext))]
+    [DbContext(typeof(StreamerDbContext))]
     partial class StreamerDBContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
@@ -21,6 +21,52 @@ namespace CleanArchitecture.Data.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
+
+            modelBuilder.Entity("CleanArchitecture.Domain.Actor", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Actor");
+                });
+
+            modelBuilder.Entity("CleanArchitecture.Domain.Director", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("LastName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("VideoId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("VideoId")
+                        .IsUnique();
+
+                    b.ToTable("Director");
+                });
 
             modelBuilder.Entity("CleanArchitecture.Domain.Streamer", b =>
                 {
@@ -53,9 +99,7 @@ namespace CleanArchitecture.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("StreamerId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("StrimerId")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -65,13 +109,67 @@ namespace CleanArchitecture.Data.Migrations
                     b.ToTable("Videos");
                 });
 
+            modelBuilder.Entity("CleanArchitecture.Domain.VideoActor", b =>
+                {
+                    b.Property<int>("ActorId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("VideoId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ActorId", "VideoId");
+
+                    b.HasIndex("VideoId");
+
+                    b.ToTable("VideoActor");
+                });
+
+            modelBuilder.Entity("CleanArchitecture.Domain.Director", b =>
+                {
+                    b.HasOne("CleanArchitecture.Domain.Video", "Video")
+                        .WithOne("Director")
+                        .HasForeignKey("CleanArchitecture.Domain.Director", "VideoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Video");
+                });
+
             modelBuilder.Entity("CleanArchitecture.Domain.Video", b =>
                 {
                     b.HasOne("CleanArchitecture.Domain.Streamer", "Streamer")
-                        .WithMany()
-                        .HasForeignKey("StreamerId");
+                        .WithMany("Videos")
+                        .HasForeignKey("StreamerId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
                     b.Navigation("Streamer");
+                });
+
+            modelBuilder.Entity("CleanArchitecture.Domain.VideoActor", b =>
+                {
+                    b.HasOne("CleanArchitecture.Domain.Actor", null)
+                        .WithMany()
+                        .HasForeignKey("ActorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("CleanArchitecture.Domain.Video", null)
+                        .WithMany()
+                        .HasForeignKey("VideoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("CleanArchitecture.Domain.Streamer", b =>
+                {
+                    b.Navigation("Videos");
+                });
+
+            modelBuilder.Entity("CleanArchitecture.Domain.Video", b =>
+                {
+                    b.Navigation("Director")
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

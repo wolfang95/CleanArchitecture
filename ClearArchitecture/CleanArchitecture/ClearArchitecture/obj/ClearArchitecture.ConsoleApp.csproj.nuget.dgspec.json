@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ClearArchitecture\\ClearArchitecture\\CleanArchitecture\\ClearArchitecture\\ClearArchitecture.ConsoleApp.csproj": {}
+    "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture\\ClearArchitecture\\ClearArchitecture.ConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\ClearArchitecture\\ClearArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Data.csproj": {
+    "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ClearArchitecture\\ClearArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Data.csproj",
+        "projectUniqueName": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Data.csproj",
         "projectName": "CleanArchitecture.Data",
-        "projectPath": "C:\\ClearArchitecture\\ClearArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Data.csproj",
+        "projectPath": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Data.csproj",
         "packagesPath": "C:\\Users\\57318\\.nuget\\packages\\",
-        "outputPath": "C:\\ClearArchitecture\\ClearArchitecture\\CleanArchitecture.Data\\obj\\",
+        "outputPath": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -33,8 +33,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\ClearArchitecture\\ClearArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
-                "projectPath": "C:\\ClearArchitecture\\ClearArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj"
+              "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
+                "projectPath": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "C:\\ClearArchitecture\\ClearArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
+    "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ClearArchitecture\\ClearArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+        "projectUniqueName": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
         "projectName": "CleanArchitecture.Domain",
-        "projectPath": "C:\\ClearArchitecture\\ClearArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+        "projectPath": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
         "packagesPath": "C:\\Users\\57318\\.nuget\\packages\\",
-        "outputPath": "C:\\ClearArchitecture\\ClearArchitecture\\CleanArchitecture.Domain\\obj\\",
+        "outputPath": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -138,14 +138,14 @@
         }
       }
     },
-    "C:\\ClearArchitecture\\ClearArchitecture\\CleanArchitecture\\ClearArchitecture\\ClearArchitecture.ConsoleApp.csproj": {
+    "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture\\ClearArchitecture\\ClearArchitecture.ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ClearArchitecture\\ClearArchitecture\\CleanArchitecture\\ClearArchitecture\\ClearArchitecture.ConsoleApp.csproj",
+        "projectUniqueName": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture\\ClearArchitecture\\ClearArchitecture.ConsoleApp.csproj",
         "projectName": "ClearArchitecture.ConsoleApp",
-        "projectPath": "C:\\ClearArchitecture\\ClearArchitecture\\CleanArchitecture\\ClearArchitecture\\ClearArchitecture.ConsoleApp.csproj",
+        "projectPath": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture\\ClearArchitecture\\ClearArchitecture.ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\57318\\.nuget\\packages\\",
-        "outputPath": "C:\\ClearArchitecture\\ClearArchitecture\\CleanArchitecture\\ClearArchitecture\\obj\\",
+        "outputPath": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture\\ClearArchitecture\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -167,11 +167,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\ClearArchitecture\\ClearArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Data.csproj": {
-                "projectPath": "C:\\ClearArchitecture\\ClearArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Data.csproj"
+              "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Data.csproj": {
+                "projectPath": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Data.csproj"
               },
-              "C:\\ClearArchitecture\\ClearArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
-                "projectPath": "C:\\ClearArchitecture\\ClearArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj"
+              "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
+                "projectPath": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj"
               }
             }
           }

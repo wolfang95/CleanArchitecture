@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HCLtB2bU0E6xWGkVI8gEWLvIq/RouTZc90K+NEkdblT4POEtAewLjXB0JBUZK5nox8fAQwP+LFm6km3ElAFhMg==",
+  "dgSpecHash": "x5oLe1IWfmRKLCIVuzLUavwwb0ii5bDiioMfgnTAzlsNWNDzkRtDoMzIy8vpLhoWk4op/A1ma3y1b1XBvO1e0Q==",
   "success": true,
-  "projectFilePath": "C:\\ClearArchitecture\\ClearArchitecture\\CleanArchitecture\\ClearArchitecture\\ClearArchitecture.ConsoleApp.csproj",
+  "projectFilePath": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.ConsoleApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\57318\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\57318\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
