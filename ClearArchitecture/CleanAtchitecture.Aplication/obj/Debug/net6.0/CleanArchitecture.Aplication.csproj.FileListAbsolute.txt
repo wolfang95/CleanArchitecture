@@ -1,0 +1,15 @@
+C:\PersonalProjects\CleanArchitecture\CleanArchitecture\ClearArchitecture\CleanAtchitecture.Aplication\bin\Debug\net6.0\CleanArchitecture.Aplication.deps.json
+C:\PersonalProjects\CleanArchitecture\CleanArchitecture\ClearArchitecture\CleanAtchitecture.Aplication\bin\Debug\net6.0\CleanArchitecture.Aplication.dll
+C:\PersonalProjects\CleanArchitecture\CleanArchitecture\ClearArchitecture\CleanAtchitecture.Aplication\bin\Debug\net6.0\CleanArchitecture.Aplication.pdb
+C:\PersonalProjects\CleanArchitecture\CleanArchitecture\ClearArchitecture\CleanAtchitecture.Aplication\bin\Debug\net6.0\CleanArchitecture.Domain.dll
+C:\PersonalProjects\CleanArchitecture\CleanArchitecture\ClearArchitecture\CleanAtchitecture.Aplication\bin\Debug\net6.0\CleanArchitecture.Domain.pdb
+C:\PersonalProjects\CleanArchitecture\CleanArchitecture\ClearArchitecture\CleanAtchitecture.Aplication\obj\Debug\net6.0\CleanArchitecture.Aplication.csproj.AssemblyReference.cache
+C:\PersonalProjects\CleanArchitecture\CleanArchitecture\ClearArchitecture\CleanAtchitecture.Aplication\obj\Debug\net6.0\CleanArchitecture.Aplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\PersonalProjects\CleanArchitecture\CleanArchitecture\ClearArchitecture\CleanAtchitecture.Aplication\obj\Debug\net6.0\CleanArchitecture.Aplication.AssemblyInfoInputs.cache
+C:\PersonalProjects\CleanArchitecture\CleanArchitecture\ClearArchitecture\CleanAtchitecture.Aplication\obj\Debug\net6.0\CleanArchitecture.Aplication.AssemblyInfo.cs
+C:\PersonalProjects\CleanArchitecture\CleanArchitecture\ClearArchitecture\CleanAtchitecture.Aplication\obj\Debug\net6.0\CleanArchitecture.Aplication.csproj.CoreCompileInputs.cache
+C:\PersonalProjects\CleanArchitecture\CleanArchitecture\ClearArchitecture\CleanAtchitecture.Aplication\obj\Debug\net6.0\CleanArchitecture.Aplication.csproj.CopyComplete
+C:\PersonalProjects\CleanArchitecture\CleanArchitecture\ClearArchitecture\CleanAtchitecture.Aplication\obj\Debug\net6.0\CleanArchitecture.Aplication.dll
+C:\PersonalProjects\CleanArchitecture\CleanArchitecture\ClearArchitecture\CleanAtchitecture.Aplication\obj\Debug\net6.0\refint\CleanArchitecture.Aplication.dll
+C:\PersonalProjects\CleanArchitecture\CleanArchitecture\ClearArchitecture\CleanAtchitecture.Aplication\obj\Debug\net6.0\CleanArchitecture.Aplication.pdb
+C:\PersonalProjects\CleanArchitecture\CleanArchitecture\ClearArchitecture\CleanAtchitecture.Aplication\obj\Debug\net6.0\ref\CleanArchitecture.Aplication.dll

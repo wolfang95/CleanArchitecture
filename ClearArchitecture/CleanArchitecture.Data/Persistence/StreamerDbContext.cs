@@ -1,12 +1,19 @@
-﻿
-
-using CleanArchitecture.Domain;
+﻿using CleanArchitecture.Domain;
+using CleanArchitecture.Domain.Common;
 using Microsoft.EntityFrameworkCore;
 
-namespace CleanArchitecture.Data
+namespace CleanArchitecture.Infrastructure.Persistence
 {
     public class StreamerDbContext : DbContext
     {
+
+        public StreamerDbContext(DbContextOptions<StreamerDbContext> options) : base(options)
+        {
+        }
+
+
+
+        /*
         // Se convierte las clases de c# (streamer y video) cómo entidades
         
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -18,7 +25,28 @@ namespace CleanArchitecture.Data
 
             ; //cadena de conexión
         }
+        */
 
+        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        {
+            foreach (var entry in ChangeTracker.Entries<BaseDomainModel>())
+            {
+                switch (entry.State)
+                {
+                    case EntityState.Added:
+                        entry.Entity.CreationDate = DateTime.Now;
+                        entry.Entity.CreatedBy = "system";
+                        break;
+
+                    case EntityState.Modified:  
+                        entry.Entity.LastModifiedDate = DateTime.Now;
+                        entry.Entity.LastModifiedBy = "system";
+                        break;
+                }
+            }
+
+            return base.SaveChangesAsync(cancellationToken);
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
