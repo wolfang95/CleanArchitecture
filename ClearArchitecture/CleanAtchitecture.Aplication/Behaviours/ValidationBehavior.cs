@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 using MediatR;
-using ValidationException = CleanArchitecture.Application.Exceptions.ValidationExceptions;
+using ValidationException = CleanArchitecture.Application.Exceptions.ValidationException;
 namespace CleanArchitecture.Application.Behaviours
 {
     public class ValidationBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse> where TRequest:IRequest

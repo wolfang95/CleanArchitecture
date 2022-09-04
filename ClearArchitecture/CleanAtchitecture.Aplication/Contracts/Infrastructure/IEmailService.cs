@@ -1,7 +1,4 @@
-﻿
-
-using CleanArchitecture.Application.Contracts.Models;
-using CleanArchitecture.Domain;
+﻿using CleanArchitecture.Application.Models;
 
 namespace CleanArchitecture.Application.Contracts.Infrastructure
 {

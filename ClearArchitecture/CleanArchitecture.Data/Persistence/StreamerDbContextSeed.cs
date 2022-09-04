@@ -1,7 +1,10 @@
-﻿using CleanArchitecture.Data;
-using CleanArchitecture.Domain;
+﻿using CleanArchitecture.Domain;
 using Microsoft.Extensions.Logging;
-
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace CleanArchitecture.Infrastructure.Persistence
 {
@@ -22,8 +25,8 @@ namespace CleanArchitecture.Infrastructure.Persistence
         {
             return new List<Streamer>
             {
-                new Streamer {CreatedBy = "Wolfang Corredor", Name = "Maxi HBP", Url = "http://www.hbp.com" },
-                new Streamer {CreatedBy = "Wolfang Corredor", Name = "Amazon VIP", Url = "http://www.amazonvip.com" },
+                new Streamer {CreatedBy = "wolfang", Name = "Netflix HBP", Url = "httpcom" },
+                new Streamer {CreatedBy = "wolfang", Name = "Netflix VIP", Url = "httpcom" },
             };
 
         }

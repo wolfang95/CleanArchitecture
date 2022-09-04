@@ -1,6 +1,6 @@
 ﻿using CleanArchitecture.Application.Contracts.Infrastructure;
 using CleanArchitecture.Application.Contracts.Persistence;
-using CleanArchitecture.Application.Contracts.Models;
+using CleanArchitecture.Application.Models;
 using CleanArchitecture.Infrastructure.Email;
 using CleanArchitecture.Infrastructure.Persistence;
 using CleanArchitecture.Infrastructure.Repositories;
@@ -24,7 +24,9 @@ namespace CleanArchitecture.Infrastructure
                 options.UseSqlServer(configuration.GetConnectionString("ConnectionString"))
             );
 
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped(typeof(IAsyncRepository<>), typeof(RepositoryBase<>));
+
             services.AddScoped<IVideoRepository, VideoRepository>();
             services.AddScoped<IStreamerRepository, StreamerRepository>();
 

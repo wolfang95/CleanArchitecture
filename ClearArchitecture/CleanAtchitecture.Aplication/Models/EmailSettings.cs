@@ -1,5 +1,4 @@
-﻿
-namespace CleanArchitecture.Application.Contracts.Models
+﻿namespace CleanArchitecture.Application.Models
 {
     public class EmailSettings
     {

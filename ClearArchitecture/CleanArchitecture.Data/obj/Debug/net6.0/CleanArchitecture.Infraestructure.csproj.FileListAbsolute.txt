@@ -17,3 +17,5 @@ C:\PersonalProjects\CleanArchitecture\CleanArchitecture\ClearArchitecture\CleanA
 C:\PersonalProjects\CleanArchitecture\CleanArchitecture\ClearArchitecture\CleanArchitecture.Data\obj\Debug\net6.0\ref\CleanArchitecture.Infraestructure.dll
 C:\PersonalProjects\CleanArchitecture\CleanArchitecture\ClearArchitecture\CleanArchitecture.Data\bin\Debug\net6.0\CleanArchitecture.Application.dll
 C:\PersonalProjects\CleanArchitecture\CleanArchitecture\ClearArchitecture\CleanArchitecture.Data\bin\Debug\net6.0\CleanArchitecture.Application.pdb
+C:\PersonalProjects\CleanArchitecture\CleanArchitecture\ClearArchitecture\CleanArchitecture.Data\bin\Debug\net6.0\CleanArchitecture.Identity.dll
+C:\PersonalProjects\CleanArchitecture\CleanArchitecture\ClearArchitecture\CleanArchitecture.Data\bin\Debug\net6.0\CleanArchitecture.Identity.pdb

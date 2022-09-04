@@ -1,12 +1,21 @@
-﻿using CleanArchitecture.Domain.Common;
+﻿
+using CleanArchitecture.Domain.Common;
 
 namespace CleanArchitecture.Domain
 {
     public class Director : BaseDomainModel
     {
+        public Director()
+        {
+        }
+
         public string? Name { get; set; }
+
         public string? LastName { get; set; }
+
         public int VideoId { get; set; }
-        public virtual Video? Video { get; set; } 
+
+        public virtual Video? Video { get; set; }
+
     }
 }

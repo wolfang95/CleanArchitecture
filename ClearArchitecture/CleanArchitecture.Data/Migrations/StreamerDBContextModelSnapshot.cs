@@ -40,7 +40,7 @@ namespace CleanArchitecture.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Actor");
+                    b.ToTable("Actores");
                 });
 
             modelBuilder.Entity("CleanArchitecture.Domain.Director", b =>
@@ -77,7 +77,7 @@ namespace CleanArchitecture.Data.Migrations
                     b.HasIndex("VideoId")
                         .IsUnique();
 
-                    b.ToTable("Director");
+                    b.ToTable("Directores");
                 });
 
             modelBuilder.Entity("CleanArchitecture.Domain.Streamer", b =>
