@@ -26,8 +26,6 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Opi.Travel.Configurations\\2Opi.Travel.Configurations\\Opi.Travel.Configurations": {},
-          "C:\\Opi.Travel.Security\\Opi.Travel.Security": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -86,8 +84,6 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Opi.Travel.Configurations\\2Opi.Travel.Configurations\\Opi.Travel.Configurations": {},
-          "C:\\Opi.Travel.Security\\Opi.Travel.Security": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -186,8 +182,6 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Opi.Travel.Configurations\\2Opi.Travel.Configurations\\Opi.Travel.Configurations": {},
-          "C:\\Opi.Travel.Security\\Opi.Travel.Security": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
