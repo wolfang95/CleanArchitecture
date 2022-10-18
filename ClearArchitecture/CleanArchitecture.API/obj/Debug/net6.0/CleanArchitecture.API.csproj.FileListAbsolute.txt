@@ -81,3 +81,4 @@ C:\PersonalProjects\CleanArchitecture\CleanArchitecture\ClearArchitecture\CleanA
 C:\PersonalProjects\CleanArchitecture\CleanArchitecture\ClearArchitecture\CleanArchitecture.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 C:\PersonalProjects\CleanArchitecture\CleanArchitecture\ClearArchitecture\CleanArchitecture.API\bin\Debug\net6.0\CleanArchitecture.Identity.dll
 C:\PersonalProjects\CleanArchitecture\CleanArchitecture\ClearArchitecture\CleanArchitecture.API\bin\Debug\net6.0\CleanArchitecture.Identity.pdb
+C:\PersonalProjects\CleanArchitecture\CleanArchitecture\ClearArchitecture\CleanArchitecture.API\obj\Debug\net6.0\CleanArchitecture.API.MvcApplicationPartsAssemblyInfo.cs
