@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Application.UnitTests\\CleanArchitecture.Application.UnitTests.csproj": {}
+    "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Application.UnitTests\\CleanArchitecture.Application.UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Application.UnitTests\\CleanArchitecture.Application.UnitTests.csproj": {
+    "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Application.UnitTests\\CleanArchitecture.Application.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Application.UnitTests\\CleanArchitecture.Application.UnitTests.csproj",
+        "projectUniqueName": "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Application.UnitTests\\CleanArchitecture.Application.UnitTests.csproj",
         "projectName": "CleanArchitecture.Application.UnitTests",
-        "projectPath": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Application.UnitTests\\CleanArchitecture.Application.UnitTests.csproj",
+        "projectPath": "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Application.UnitTests\\CleanArchitecture.Application.UnitTests.csproj",
         "packagesPath": "C:\\Users\\57318\\.nuget\\packages\\",
-        "outputPath": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Application.UnitTests\\obj\\",
+        "outputPath": "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Application.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -26,17 +26,18 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Test Tec\\Litethinking.NetInventory.Backend\\Litethinking.NetInventory.Backend": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Infraestructure.csproj": {
-                "projectPath": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Infraestructure.csproj"
+              "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Infraestructure.csproj": {
+                "projectPath": "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Infraestructure.csproj"
               },
-              "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanAtchitecture.Aplication\\CleanArchitecture.Application.csproj": {
-                "projectPath": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanAtchitecture.Aplication\\CleanArchitecture.Application.csproj"
+              "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanAtchitecture.Aplication\\CleanArchitecture.Application.csproj": {
+                "projectPath": "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanAtchitecture.Aplication\\CleanArchitecture.Application.csproj"
               }
             }
           }
@@ -101,14 +102,14 @@
         }
       }
     },
-    "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Infraestructure.csproj": {
+    "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Infraestructure.csproj",
+        "projectUniqueName": "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Infraestructure.csproj",
         "projectName": "CleanArchitecture.Infraestructure",
-        "projectPath": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Infraestructure.csproj",
+        "projectPath": "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Infraestructure.csproj",
         "packagesPath": "C:\\Users\\57318\\.nuget\\packages\\",
-        "outputPath": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Data\\obj\\",
+        "outputPath": "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -123,17 +124,18 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Test Tec\\Litethinking.NetInventory.Backend\\Litethinking.NetInventory.Backend": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Identity\\CleanArchitecture.Identity.csproj": {
-                "projectPath": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Identity\\CleanArchitecture.Identity.csproj"
+              "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Identity\\CleanArchitecture.Identity.csproj": {
+                "projectPath": "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Identity\\CleanArchitecture.Identity.csproj"
               },
-              "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanAtchitecture.Aplication\\CleanArchitecture.Application.csproj": {
-                "projectPath": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanAtchitecture.Aplication\\CleanArchitecture.Application.csproj"
+              "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanAtchitecture.Aplication\\CleanArchitecture.Application.csproj": {
+                "projectPath": "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanAtchitecture.Aplication\\CleanArchitecture.Application.csproj"
               }
             }
           }
@@ -186,14 +188,14 @@
         }
       }
     },
-    "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
+    "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+        "projectUniqueName": "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
         "projectName": "CleanArchitecture.Domain",
-        "projectPath": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+        "projectPath": "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
         "packagesPath": "C:\\Users\\57318\\.nuget\\packages\\",
-        "outputPath": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Domain\\obj\\",
+        "outputPath": "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -208,6 +210,7 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Test Tec\\Litethinking.NetInventory.Backend\\Litethinking.NetInventory.Backend": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -244,14 +247,14 @@
         }
       }
     },
-    "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Identity\\CleanArchitecture.Identity.csproj": {
+    "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Identity\\CleanArchitecture.Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Identity\\CleanArchitecture.Identity.csproj",
+        "projectUniqueName": "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Identity\\CleanArchitecture.Identity.csproj",
         "projectName": "CleanArchitecture.Identity",
-        "projectPath": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Identity\\CleanArchitecture.Identity.csproj",
+        "projectPath": "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Identity\\CleanArchitecture.Identity.csproj",
         "packagesPath": "C:\\Users\\57318\\.nuget\\packages\\",
-        "outputPath": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Identity\\obj\\",
+        "outputPath": "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Identity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -266,14 +269,15 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Test Tec\\Litethinking.NetInventory.Backend\\Litethinking.NetInventory.Backend": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanAtchitecture.Aplication\\CleanArchitecture.Application.csproj": {
-                "projectPath": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanAtchitecture.Aplication\\CleanArchitecture.Application.csproj"
+              "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanAtchitecture.Aplication\\CleanArchitecture.Application.csproj": {
+                "projectPath": "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanAtchitecture.Aplication\\CleanArchitecture.Application.csproj"
               }
             }
           }
@@ -342,14 +346,14 @@
         }
       }
     },
-    "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanAtchitecture.Aplication\\CleanArchitecture.Application.csproj": {
+    "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanAtchitecture.Aplication\\CleanArchitecture.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanAtchitecture.Aplication\\CleanArchitecture.Application.csproj",
+        "projectUniqueName": "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanAtchitecture.Aplication\\CleanArchitecture.Application.csproj",
         "projectName": "CleanArchitecture.Application",
-        "projectPath": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanAtchitecture.Aplication\\CleanArchitecture.Application.csproj",
+        "projectPath": "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanAtchitecture.Aplication\\CleanArchitecture.Application.csproj",
         "packagesPath": "C:\\Users\\57318\\.nuget\\packages\\",
-        "outputPath": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanAtchitecture.Aplication\\obj\\",
+        "outputPath": "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanAtchitecture.Aplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -364,14 +368,15 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Test Tec\\Litethinking.NetInventory.Backend\\Litethinking.NetInventory.Backend": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
-                "projectPath": "C:\\PersonalProjects\\CleanArchitecture\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj"
+              "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
+                "projectPath": "C:\\Test Tec\\CleanArchitecture\\ClearArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj"
               }
             }
           }
